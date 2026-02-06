@@ -1,0 +1,29 @@
+id,name,category,divisible,unit,weight_kg_per_unit,volume_l_per_unit,price_usd_per_unit,max_units,alpha,beta_T_per_hour,beta_altitude_per_1000m,beta_temp_cold_per_c,beta_temp_hot_per_c,nights_req,t_threshold_hours,gamma_after_threshold,diminish_after_units,notes
+1,Water,supplies,1,L,1.0,1.0,0.8,10,0.0,0.6,0.1,0.05,0.25,0,0,0.0,999,Divisible; higher utility with time/heat/altitude
+2,Food (trail mix),supplies,1,100g,0.1,0.06,0.7,30,0.0,0.35,0.05,0.02,0.03,0,0,0.0,999,Divisible; steady utility growth with time
+3,Electrolyte tablets,supplies,1,tablet,0.005,0.002,0.2,20,0.0,0.18,0.06,0.0,0.08,0,2,0.5,50,Boosts water utility esp. in heat; synergy modeled separately
+4,Stove (ultralight),cooking,0,item,0.085,0.1,30.0,1,0.6,0.05,0.0,0.02,0.0,1,0,0.0,1,Useful if nights>0 or hot meals desired
+5,Fuel canister (100g),cooking,0,item,0.2,0.15,6.0,2,0.1,0.1,0.0,0.01,0.0,1,0,0.0,2,Pairs with stove; diminishing returns after 2
+6,Pot/Titanium mug,cooking,0,item,0.12,0.4,25.0,1,0.4,0.06,0.0,0.01,0.0,1,0,0.0,1,Synergy with stove
+7,Tent (2P ultralight),shelter,0,item,1.2,7.0,220.0,1,1.2,0.04,0.02,0.05,0.0,1,0,0.0,1,High base; nights>0
+8,Sleeping bag (3-season),shelter,0,item,0.95,6.0,180.0,1,1.0,0.05,0.02,0.06,0.0,1,0,0.0,1,Cold temp increases utility
+9,Sleeping pad,shelter,0,item,0.45,3.5,80.0,1,0.5,0.03,0.0,0.03,0.0,1,0,0.0,1,Comfort/insulation
+10,Headlamp,lighting,0,item,0.09,0.1,35.0,1,0.3,0.08,0.0,0.0,0.0,1,8,0.4,1,Threshold around dusk/night hiking
+11,Power bank (10k mAh),electronics,0,item,0.18,0.12,25.0,1,0.2,0.06,0.0,0.0,0.0,0,6,0.2,1,Long days increase need
+12,GPS device,navigation,0,item,0.16,0.15,120.0,1,0.5,0.04,0.06,0.0,0.0,0,0,0.0,1,Altitude/terrain boosts utility
+13,Map & compass,navigation,0,item,0.12,0.2,20.0,1,0.6,0.03,0.04,0.0,0.0,0,0,0.0,1,Alternative to GPS; substitution
+14,First aid kit (basic),medical,0,item,0.25,0.6,22.0,1,0.6,0.02,0.01,0.01,0.0,0,0,0.0,1,Baseline safety
+15,Emergency blanket,safety,0,item,0.06,0.1,5.0,1,0.2,0.02,0.02,0.04,0.0,0,0,0.0,1,Cold-weather contingency
+16,Rain jacket,clothing,0,item,0.3,1.0,90.0,1,0.5,0.04,0.0,0.03,0.0,0,0,0.0,1,Weather protection
+17,Insulated layer (puffy),clothing,0,item,0.4,3.5,120.0,1,0.5,0.03,0.02,0.05,0.0,1,0,0.0,1,Cold boosts utility
+18,Extra socks,clothing,0,pair,0.08,0.2,12.0,2,0.2,0.05,0.0,0.02,0.0,0,5,0.3,2,Threshold effects for blisters
+19,Gloves,clothing,0,pair,0.09,0.15,18.0,1,0.2,0.02,0.01,0.03,0.0,0,0,0.0,1,Cold-weather
+20,Sun hat,clothing,0,item,0.08,0.4,20.0,1,0.3,0.02,0.02,0.0,0.05,0,0,0.0,1,Heat/sun exposure
+21,Sunscreen (50ml),protection,1,10ml,0.012,0.01,3.0,5,0.05,0.08,0.0,0.0,0.06,0,2,0.2,5,Divisible; threshold with long sunny days
+22,Trekking poles,tools,0,pair,0.45,2.0,70.0,1,0.4,0.04,0.05,0.0,0.0,0,0,0.0,1,Help with altitude/steep terrain
+23,Multi-tool,tools,0,item,0.2,0.25,35.0,1,0.3,0.02,0.0,0.0,0.0,0,0,0.0,1,General utility
+24,Microspikes,traction,0,item,0.35,1.0,60.0,1,0.2,0.01,0.03,0.04,0.0,0,0,0.0,1,Cold/icy conditions
+25,Bear canister,safety,0,item,1.0,8.0,85.0,1,0.1,0.01,0.0,0.0,0.0,1,0,0.0,1,Sometimes required; synergy with food
+26,Water filter,water,0,item,0.07,0.2,40.0,1,0.5,0.04,0.06,0.0,0.05,0,3,0.3,1,Boosts water usefulness esp. long/hot
+27,Repair kit (patch/tape),tools,0,item,0.12,0.15,10.0,1,0.2,0.02,0.0,0.01,0.0,0,0,0.0,1,Small fixes
+28,Knife (light),tools,0,item,0.07,0.05,12.0,1,0.2,0.02,0.0,0.0,0.0,0,0,0.0,1,Basic cutting

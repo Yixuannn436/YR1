@@ -1,0 +1,6 @@
+scenario_id,name,T_hours,nights,altitude_m,avg_temp_c,C_weight_kg,C_volume_l,B_budget_usd,bear_country,water_sources
+1,Day hike – warm lowland,8,0,800,26,8.0,22.0,120.0,False,medium
+2,Overnighter – cool alpine,26,1,2200,6,14.0,45.0,300.0,False,high
+3,Weekend – mixed weather,36,2,1500,14,16.0,55.0,350.0,False,medium
+4,Overnighter – hot & dry,20,1,1200,30,12.0,40.0,260.0,False,low
+5,Weekend – bear country,32,2,1800,12,18.0,60.0,380.0,True,medium
